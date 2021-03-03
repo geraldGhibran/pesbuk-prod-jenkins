@@ -12,5 +12,5 @@ ADD ./pesbuk.conf /etc/nginx/sites-available/
 RUN ln -s /etc/nginx/sites-available/pesbuk.conf /etc/nginx/sites-enabled/pesbuk.conf
 # Expose ports.
 EXPOSE 80
-# RUN PHP and NGINX 2222
+# RUN PHP and NGINX 2222 bla bla
 CMD /etc/init.d/php7.2-fpm start && nginx
